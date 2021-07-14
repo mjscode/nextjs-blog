@@ -49,7 +49,7 @@ export default function Home(props) {
         </ul>
       </section>
       <section>
-      <h2 className={utilStyles.headingLg}>Latest Bit Coin</h2>
+      <h2 className={utilStyles.headingLg}>Latest Bitcoin</h2>
         <ul className={utilStyles.list}>
             {props.getBit.map(({currency,rate,description}) =>(
               <li className={utilStyles.listItem} key={currency}>
