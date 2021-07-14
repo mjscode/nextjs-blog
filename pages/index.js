@@ -24,7 +24,7 @@ export default function Home(props) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I am a Full Stack Developr with about 3 years of experience.</p>
+        <p>I am a Full Stack Developr with 3 years of experience.</p>
         <p>
           Check out my first post at{' '}
           <Link href="/posts/first-post">
